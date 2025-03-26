@@ -76,7 +76,7 @@ public class Test1 extends BaseTest {
 	
 	
 	@Parameters({"browser", "myName"})
-	@Test(enabled=false)
+	@Test()
 	public void paraTest(@Optional("no browser") String browser, @Optional("no name")  String name) {
 		
 		System.out.println("Test Para run");
@@ -86,7 +86,7 @@ public class Test1 extends BaseTest {
 		Assert.assertTrue(false);
 	}
 	
-	@Test(priority = 1)
+	@Test()
 	public void getGoogleTitle() {
 		
 		driver.get("https://www.google.com");
@@ -95,7 +95,7 @@ public class Test1 extends BaseTest {
 			
 	}
 	
-	@Test(priority = 2)
+	@Test()
 	public void getFacebookTitle() {
 		
 		driver.get("https://www.facebook.com");
@@ -105,7 +105,7 @@ public class Test1 extends BaseTest {
 		
 	}
 	
-	@Test(priority = 3)
+	@Test()
 	public void getGmailTitle() {
 		
 		driver.get("https://www.gmail.com");
@@ -114,7 +114,7 @@ public class Test1 extends BaseTest {
 		
 	}
 	
-	@Test(priority = 5)
+	@Test()
 	public void getUdemyTitle() {
 		
 		driver.get("https://www.Udemy.com");
@@ -126,7 +126,7 @@ public class Test1 extends BaseTest {
 	}
 	
 //	@Test(priority = 4, retryAnalyzer = RetryListener.class)
-	@Test(priority = 4)
+	@Test()
 	public void getCanadaTitle() {
 		
 		driver.get("https://www.Canada.ca");
@@ -138,7 +138,7 @@ public class Test1 extends BaseTest {
 		
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 1)
 	public void getHondaCanadaTitle() {
 		
 		driver.get("https://www.honda.ca");
