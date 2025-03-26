@@ -138,4 +138,16 @@ public class Test1 extends BaseTest {
 		
 	}
 	
+	@Test(priority = 5)
+	public void getHondaCanadaTitle() {
+		
+		driver.get("https://www.honda.ca");
+		
+		String title = driver.getTitle();
+		boolean gotTitle = title != null ? true : false;
+		Assert.assertFalse(gotTitle);
+			
+		
+	}
+	
 }
