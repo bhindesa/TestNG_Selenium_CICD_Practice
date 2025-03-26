@@ -9,7 +9,7 @@
 
   <name>TestNGPractice</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://www.google.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,7 +95,7 @@
 				        <version>3.5.2</version>
 				        <configuration>
 				          <suiteXmlFiles>
-				            <suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
+				            <suiteXmlFile>testSuites/regression.xml</suiteXmlFile>
 				          </suiteXmlFiles>
 				        </configuration>
 				      </plugin>
