@@ -42,19 +42,19 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/sarbbhinder/Desktop/QA/Selenium CICD/TestNGPractice/testSuites/regression.xml</span>
+            <span class="header-content">/Users/sarbbhinder/Desktop/QA/Selenium CICD/TestNGPractice/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;parameter name=&quot;myName&quot; value=&quot;Sarb&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;testListeners.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.Test1&quot;/&gt;
     &lt;/classes&gt;
@@ -122,9 +122,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.Test1</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">paraTest</span>
-                <br/>
                 <span class="ignored-method-name">shouldAnswerWithTrue</span>
+                <br/>
+                <span class="ignored-method-name">paraTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
