@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+<parameter name="browser" value="chrome" />
+<parameter name="myName" value="Sarb" />
+<listeners>
+	<listener class-name="testListeners.TestListener" />
+</listeners>
+<groups>
+	<run>
+		<include name="smoke" />
+	</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.Test2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

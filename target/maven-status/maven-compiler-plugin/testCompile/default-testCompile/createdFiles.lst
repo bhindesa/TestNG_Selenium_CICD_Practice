@@ -1,0 +1,7 @@
+test/Test2.class
+test/Test1$1.class
+test/Test2$1.class
+testListeners/MyAnnotationTranformer.class
+testListeners/RetryListener.class
+test/Test1.class
+testListeners/TestListener.class

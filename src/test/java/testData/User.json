@@ -1,0 +1,17 @@
+[
+	{
+		"firstname": "Sarb",
+		"lastname": "bhinder",
+		"gender": "male"
+	},
+	{
+		"firstname": "Donald",
+		"lastname": "Trump",
+		"gender": null
+	},
+	{
+		"firstname": "Sam",
+		"lastname": "Dhillon",
+		"gender": null
+	}
+]
